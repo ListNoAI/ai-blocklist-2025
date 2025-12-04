@@ -1,24 +1,24 @@
 # AI Blocklist 2025
 
-Lista completa e aggiornata di **oltre 160 domini** relativi a servizi di intelligenza artificiale (chatbot, generatori di immagini/video/audio, tool di scrittura e assistenza scolastica).
+A complete and regularly updated blocklist of **160+ domains** related to artificial intelligence services (chatbots, image/video/audio generators, writing tools, and homework assistants).
 
-Ideale per:
+Perfect for:
 - Parental control
-- Reti scolastiche e aziendali
-- Filtri DNS personali (AdGuard Home, Pi-hole, NextDNS, ecc.)
+- School and corporate networks
+- Personal DNS filtering (AdGuard Home, Pi-hole, NextDNS, etc.)
 
-### Come usarla
-1. Scarica [`ai-blocklist.txt`](ai-blocklist.txt)
-2. Importala nei tuoi filtri DNS o AdBlock
-3. (Facoltativo) Rimuovi le righe che iniziano con `@@` se vuoi bloccare anche i servizi attualmente in whitelist
+### How to use
+1. Download [`ai-blocklist.txt`](ai-blocklist.txt)
+2. Import it into your DNS filter or ad-blocker
+3. (Optional) Remove lines starting with `@@` if you want to block the currently whitelisted services as well
 
-### Compatibilità
+### Compatibility
 - AdGuard (Home / Pro / DNS)
 - Pi-hole / AdGuard Home / NextDNS
 - uBlock Origin / AdBlock Plus
-- Qualsiasi sistema che supporti liste in formato Adblock
+- Any system that supports Adblock-style filter lists
 
-### Contribuisci
-Trovato un nuovo servizio AI non presente? Apri una Issue o una Pull Request!
+### Contribute
+Found a new AI service that isn’t listed yet? Open an Issue or submit a Pull Request!
 
-**Licenza**: MIT – usa, modifica e ridistribuisci liberamente.
+**License**: MIT – feel free to use, modify, and redistribute.
