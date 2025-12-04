@@ -1,14 +1,13 @@
 ! Title: AI Blocklist 2025 – Complete Domain Blocklist
-! Description: Blocca oltre 160 servizi AI (chatbot, generatori immagini/video/audio, tool per compiti e scrittura)
+! Description: Blocks 160+ AI services (chatbots, image/video/audio generators, writing & homework tools)
 ! Version: 2025.12.04
 ! Last updated: 2025-12-04
-! Author: Community-driven (feel free to contribute)
+! Author: Community-driven
 ! License: MIT
 ! Homepage: https://github.com/ListNoAI/ai-blocklist-2025
 !
-! Compatibile con: AdGuard (Home/Pro/DNS), Pi-hole, uBlock Origin, NextDNS, ControlD, AdBlock Plus, ecc.
+! Works with: AdGuard (Home/Pro/DNS), Pi-hole, uBlock Origin, NextDNS, ControlD, AdBlock Plus, etc.
 !
-! Le righe con @@ sono ECCEZIONI (siti consentiti). Rimuovile se vuoi bloccarli tutti.
 
 ||openai.com^
 ||chat.openai.com^
@@ -28,11 +27,11 @@
 ||grok.com^
 ||api.x.ai^
 
-! Google Gemini/Bard – whitelist (rimuovi @@ per bloccarli)
-@@||gemini.google.com^
-@@||bard.google.com^
-@@||ai.google.dev^
-@@||gemini.google.^
+! Google Gemini/Bard
+||gemini.google.com^
+||bard.google.com^
+||ai.google.dev^
+||gemini.google.^
 
 ||copilot.microsoft.com^
 ||bing.com/chat^
@@ -173,4 +172,4 @@
 ||slidesgo.com^
 ||slidesai.io^
 
-! Fine lista – ~160 domini bloccati
+! End
